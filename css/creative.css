@@ -102,8 +102,7 @@ aside {
 }
 
 #rootTopRight {
-    position: absolute;
-    right: 0px;
+    float: right;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
