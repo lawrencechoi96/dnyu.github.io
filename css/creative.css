@@ -24,6 +24,13 @@ hr.light {
     border-color: #fff;
 }
 
+.divide{
+    max-width:  none;
+    border-width: 2px;
+    background-color: white;
+    border-color: white;
+}
+
 a {
     color: #4BDB27;
     -webkit-transition: all .35s;
@@ -34,6 +41,7 @@ a {
 a:hover,
 a:focus {
     color: #FFCF79;
+
 }
 
 h1,
@@ -572,15 +580,18 @@ body {
 }
 
 #why {
-    background-color: #F2F0E9;
+    background-color: white;
+    border-bottom: 1px black solid;
 }
 
 #team{
-    background-color: #F5F3ED;
+    background-color: white;
+    border-bottom: 1px black solid;
 }
 
 #sponsors{
     background-color: white;
+    border-bottom: 1px black solid;
 }
 
 
