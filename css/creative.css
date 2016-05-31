@@ -1,3 +1,4 @@
+
 /*!
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -591,9 +592,12 @@ body {
 
 #sponsors{
     background-color: white;
-    border-bottom: 1px black solid;
 }
 
+.endSponsors{
+
+    border-bottom: 1px black solid;
+}
 
 .text-muted{
     letter-spacing: 2px;
@@ -605,4 +609,8 @@ body{
 
 h3{
     letter-spacing: 2px;
+}
+
+.studentheading{
+    background: white;
 }
