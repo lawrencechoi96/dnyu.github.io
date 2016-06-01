@@ -376,21 +376,21 @@ header .header-content .header-content-inner p {
 }
 
 #weiss {
-    height: 35%;
+    height: 32%;
     padding: 4%;
-    width: 35%;
+    width: 32%;
 }
 
 #klein {
-    height: 35%;
+    height: 32%;
     padding: 4%;
-    width: 35%;
+    width: 32%;
 }
 
 #pennEng {
-    height: 35%;
+    height: 32%;
     padding: 4%;
-    width: 35%; 
+    width: 32%; 
 }
 
 .call-to-action h2 {
@@ -577,17 +577,15 @@ body {
 }
 
 #info {
-    background-color: #EBE8DF;
+    background-color: #f2f2f2;
 }
 
 #why {
     background-color: white;
-    border-bottom: 1px black solid;
 }
 
 #team{
-    background-color: white;
-    border-bottom: 1px black solid;
+    background-color: #f2f2f2;
 }
 
 #sponsors{
@@ -596,8 +594,10 @@ body {
 
 .endSponsors{
 
-    border-bottom: 1px black solid;
 }
+
+
+
 
 .text-muted{
     letter-spacing: 2px;
