@@ -13,7 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -39,6 +39,20 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+   
+       $(window).scroll(function(){
+           if ($(window).scrollTop() > 670) {
+                   $('#rootIcon').fadeIn("slow");
+                   $('#rootTopRight').fadeIn("slow");
+                   $('#rootTopRight').css("float", "right");
+                   $('#rootIcon').css("float", "right");
+               }else{
+                   $('#rootIcon').hide();
+                   $('#rootTopRight').hide();
+           }
+       });
+   </script>
 
 </head>
 
@@ -182,14 +196,16 @@
                 <hr class="primary">
                 <br><br>
                    <div class="text-center">
-                    <img class="mike" align="middle" src="img/mike.png">
-                    <img class="don" align="middle" src="img/don.png">
-                    <img class="strat" align="middle" src="img/strat.png">
+                    <a href="https://www.linkedin.com/in/michaelraevsky"><img class="mike" align="middle" src="img/mike.png"></a>
+                    <a href="https://www.linkedin.com/in/dknyu"><img class="don" align="middle" src="img/don.png"></a>
+                    <a href="https://www.linkedin.com/in/stratton-spirou-bb7142a8"><img class="strat" align="middle" src="img/strat.png"></a>
                     <br>
-                    <img class="ahmad" align="middle" src="img/ahmad.png">
-                    <img class="vincent" align="middle" src="img/vincent.png">
+                    <a href="https://www.linkedin.com/in/ahmad-attia-455861a8"><img class="ahmad" align="middle" src="img/ahmad.png"></a>
+                    <a href="https://www.linkedin.com/in/vincent-po-b6411a111"><img class="vincent" align="middle" src="img/vincent.png"></a>
+                        </div>
                     </div>
                 </div>
+
     </section>
 
   <section id="sponsors">
@@ -203,13 +219,12 @@
             </div>
         </div>  
         <div class="text-center" >
-            <img src="./img/kleinman.png" id="klein"></img> 
-            <img src="./img/weisslabs.png" id="weiss"></img> 
-            <img src="./img/pennEng.png" id="pennEng"></img>
+            <a href="http://kleinmanenergy.upenn.edu/"><img src="./img/kleinman.png" id="klein"></img></a>
+            <a href="http://weisslabs.io/"><img src="./img/weisslabs.png" id="weiss"></img></a>
+            <a href="http://www.pemnet.com/"><img src="./img/pennEng.png" id="pennEng"></img></a>
         </div>
     </div>
     <div class="advisors">
-    
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading"><b>Advisors</b></h2>
