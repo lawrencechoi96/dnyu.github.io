@@ -268,6 +268,7 @@ header .header-content .header-content-inner p {
     }
 }
 
+
 .section-heading {
     font-size: 300%;
     margin-top: 0;
@@ -551,99 +552,106 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-.ahmad {
-    width: 18%;
+#ahmad {
+    margin-top:2%;
+    
+    border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
-.ahmad::after{
+#ahmad::after{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     opacity: 0;
 }
-.ahmad:hover {
+#ahmad:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     border: 2px solid #4BDB27;
 }
-.ahmad:hover::after {
+#ahmad:hover::after {
      opacity: 1;
 }
-.ahmad:active {
+#ahmad:active {
     transform: translateY(4px);
 }
-.don {
-    width: 18%;
+#don {
+     margin-bottom: 2%;
+    border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
-.don::after{
+#don::after{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     opacity: 0;
 }
-.don:hover {
+#don:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     border: 2px solid #4BDB27;
 }
-.don:hover::after {
+#don:hover::after {
      opacity: 1;
 }
-.don:active {
+#don:active {
     transform: translateY(4px);
 }
-.strat {
-    width: 18%;
+#strat {
+    margin-bottom: 2%;
+    border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
-.strat::after{
+#strat::after{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     opacity: 0;
 }
-.strat:hover {
+#strat:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     border: 2px solid #4BDB27;
 }
-.strat:hover::after {
+#strat:hover::after {
      opacity: 1;
 }
-.strat:active {
+#strat:active {
     transform: translateY(4px);
 }
-.vincent {
-    width: 18%;
+#vincent {
+    margin-top:2%;
+    
+    border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
-.vincent::after{
+#vincent::after{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     opacity: 0;
 }
-.vincent:hover {
+#vincent:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     border: 2px solid #4BDB27;
 }
-.vincent:hover::after {
+#vincent:hover::after {
      opacity: 1;
  }
-.vincent:active {
+#vincent:active {
     transform: translateY(4px);
 }
-.mike {
-    width: 18%;
+#mike {
+     margin-bottom: 2%;
+    border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
-.mike::after{
+#mike::after{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     opacity: 0;
 }
-.mike:hover {
+#mike:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     border: 2px solid #4BDB27;
 }
-.mike:hover::after {
+#mike:hover::after {
      opacity: 1;
 }
-.mike:active {
+#mike:active {
     transform: translateY(4px);
 }
 .header {
