@@ -748,7 +748,12 @@ h3{
 .studentheading{
     background: white;
 }
-
+#dataabout{
+    margin-left:2%;
+}
+#why2{
+    font-size: 20%;
+}
 #findOutButton {
    
    background-color: white; 
@@ -764,4 +769,17 @@ h3{
    -webkit-transition-duration: 0.4s; /* Safari */
    transition-duration: 0.4s;
    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
 }
