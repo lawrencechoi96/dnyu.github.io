@@ -270,8 +270,9 @@ header .header-content .header-content-inner p {
 
 
 .section-heading {
-    font-size: 300%;
+    font-size: 180%;
     margin-top: 0;
+    margin-bottom: 5%;
 }
 
 .section-heading2 {
@@ -667,11 +668,11 @@ body {
 }
 
 #team{
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 #sponsors{
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 #klein{
@@ -782,4 +783,63 @@ h3{
     body {
         margin: 0;
     }
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+  
+#email {
+  width: 75%;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+  width: 25%;
+  height: 46px;
+  background: #4BDB27;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+
+#submit:hover {
+  background: #737373;
+}
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #4BDB27;
+  box-shadow: 0 0 2px #4BDB27;
+}
+form {
+  width: 450px;
+  margin: 17% auto;
+}
+
+.headermc{
+    font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
