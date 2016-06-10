@@ -30,48 +30,27 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+    <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+    <script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
-    <!-- Imports --> 
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/jquery.scrollify.js"></script>
-    <script src="js/jquery.scrollify.min.js"></script>
-    <script src="js/grayscale.js"></script>
-    <script src="js/scrollify.js"></script>
-    <script src="dist/jquery.bootstrap-autohidingnavbar.min.js"></script>   
-
     <!--navbar links-->
     <script>
-        $(document).ready(function () {
-          //your code here
-          $(function(){
+        $(function(){
             $.scrollify({
-                    section : ".example-classname",
-                });
+                section : ".example-classname",
             });
-
-            
-            $('.navbar-fixed').autoHidingNavbar('setDisableAutohide', false);
         });
+
+        
+        $('.navbar-fixed').autoHidingNavbar('setDisableAutohide', false);
+
     </script>
 
 </head>
@@ -316,7 +295,7 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div">
             <div class="row-fluid">
                 <div class="col-lg-12 text-center">
                     <h2 class="heads"><b>Advisors</b></h2>
@@ -363,6 +342,25 @@
             </p>
         </div>
     </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
+    <script src="js/grayscale.js"></script>
+    <script src="js/scrollify.js"></script>
+    <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
 
 </body>
 
