@@ -20,7 +20,7 @@ div{
 #learn{
   font-family: 'Poiret One', cursive;
   color: #000;
-  font-size: 100%;
+  font-size: 150%;
 }
 #subscribe{
     font-family: 'Poiret One', cursive;
@@ -34,7 +34,7 @@ div{
 }
 
 #bgsub{
-  background-color: #e6ffff;
+  background-color: #EDF7FA;
   padding: 3%;
   margin-bottom: 5%;
 }
@@ -62,7 +62,7 @@ div{
 }
 
 #about{
-	background-color: #e6ffff;
+	background-color: #EDF7FA;
 	padding: 2%;
   background-size: contain;
 }
@@ -85,23 +85,20 @@ div{
 #punch{
 	margin:1%;
 	font-family: 'Poiret One', cursive;
-	font-size: 2.5em;
+	font-size: 200%;
 	letter-spacing: 1px;
-  background-color: #e6ffff;
   color: #696969;
 }
 .whysection{
 	background-color: #fff;
 	color: #000;
-  background-size: contain;
+  background-size: cover;
 }
 #why{
 	font-family: 'Poiret One', cursive;
 	align-self: center;
-	font-size: 4em;
-	font-weight:300;
+	font-size: 400%;
 	color: #000;
-	padding: 5%;
 	letter-spacing: 1px;
 }
 
@@ -135,7 +132,7 @@ hr.light {
 
 
 a {
-    color: #e6ffff;
+    color: #EDF7FA;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -143,7 +140,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #e6ffff;
+    color: #EDF7FA;
 
 }
 
@@ -165,7 +162,7 @@ p {
 #contactsec{
   margin-top: 5%;
   float: bottom;
-	background-color: #e6ffff;
+	background-color: #EDF7FA;
 	padding: 3%;
   color: #fff;
 }
@@ -288,8 +285,7 @@ p {
 .section-heading{
 	font-family: 'Poiret One', cursive;
 	align-self: center;
-	font-size: 3.5em;
-	font-weight:300;
+	font-size: 200%;
 	color: #000;
 	padding: 3%;
 	letter-spacing: 1px;
@@ -321,7 +317,7 @@ body{
 
 
 #sponsors{
-    background-color: #e6ffff;
+    background-color: #EDF7FA;
 }
 #klein{
     padding: 2%;
@@ -438,7 +434,7 @@ body{
 
 
 .text-muted{
-    letter-spacing: 2px;
+    font-size: 120%;
 }
 
 
@@ -480,8 +476,7 @@ body{
 
 .heads{
 	font-family: 'Poiret One', cursive;
-	font-size: 2.5em;
-	font-weight:10;
+	font-size: 220%;
 	color: #000;
   margin-top: 2%;
 }
@@ -492,7 +487,7 @@ body{
 }
 
 .bg-primary {
-    background-color: #e6ffff;
+    background-color: #EDF7FA;
 }
 
 #contact{
@@ -513,14 +508,6 @@ form {
   border: #d3d3d3 solid 3px;
   padding: 3%;
   border-radius: 5%;
-}
-
-
-.headermc {
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-family: 'Poiret One', cursive;
 }
 
 .input {
@@ -606,7 +593,7 @@ input:focus {
   #punch{
   margin:1%;
   font-family: 'Poiret One', cursive;
-  font-size: 2em;
+  font-size: 200%;
   letter-spacing: 1px;
   color: #696969;
   }
@@ -614,9 +601,9 @@ input:focus {
   #why{
   font-family: 'Poiret One', cursive;
   align-self: center;
-  font-size: 2em;
+  padding-top: 10%;
+  font-size: 400%;
   color: #000;
-  padding: 1%;
   letter-spacing: 0.25px;
   }
 
@@ -630,8 +617,7 @@ input:focus {
 
   .heads{
   font-family: 'Poiret One', cursive;
-  font-size: 1em;
-  font-weight:50;
+  font-size: 220%;
   color: #000;
   margin-top: 1%;
   }
@@ -695,7 +681,7 @@ input:focus {
     transform: translateY(4px);
   }
   .text-muted{
-    letter-spacing: 2px;
+    font-size: 120%;
   }
   #weiss {
     height: 50%;
@@ -719,7 +705,7 @@ input:focus {
   }
 
   #bgsub{
-    background-color: #e6ffff;
+    background-color: #EDF7FA;
   }
 
   #emailid{
@@ -750,9 +736,9 @@ input:focus {
 
 
 .headermc {
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  font-size: 3%;
+  padding: 1%;
+  width: 90%;
   font-family: 'Poiret One', cursive;
 }
 
@@ -775,7 +761,6 @@ input:focus {
   background: #fff;
   font-family: 'Poiret One', cursive;
   color: #d3d3d3;
-  letter-spacing: 1px;
   text-indent: 5%;
   border-radius: 5px 0 0 5px;
 }
