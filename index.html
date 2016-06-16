@@ -29,6 +29,20 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+
+      	$(window).bind('mousewheel', function(e){
+		    if(e.originalEvent.wheelDeltaX != 0) {
+		        e.preventDefault();
+		    }
+		});
+		$(document).keydown(function(e){
+		    if (e.keyCode == 37) { 
+		        e.preventDefault();
+		    }
+		    if (e.keyCode == 39) {
+		        e.preventDefault();
+		    }
+		});
     </script>
 
     <script>
@@ -233,9 +247,7 @@
                     <p class="text-muted">Root removes wealth as a requirement for smart homes.<br> We equip everyone to stand with us.</p>
                 </div>
             </div>
-            <br><br>
         </div>
-    	
    	</section>
   
     <!-- Team Section -->
