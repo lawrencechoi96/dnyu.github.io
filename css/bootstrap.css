@@ -11,6 +11,8 @@ html {
 }
 body {
   margin: 0;
+  width: auto;
+  overflow: scroll;
 }
 article,
 aside,
